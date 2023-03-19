@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>MySensor</title>
+  </head>
+  <body>
+    <header>
+      <h1>MySensor</h1>
+      <p id="desc">Rotation &#38; Distance Sensor</p>
+    </header>
+    <main>
+      <article id="rot" class="card">
+        <h2><a href="https://thingspeak.com/channels/2058114/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" target="_blank">Rotation</a></h2>
+        <h2 id="field-1">rotating..</h2>
+      </article>
+      <article id="tem" class="card">
+        <h2><a href="https://thingspeak.com/channels/2058114/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" target="_blank">Temperature</a></h2>
+        <h2 id="field-2">obtaining..</h2>
+      </article>
+      <article id="dis" class="card">
+        <h2><a href="https://thingspeak.com/channels/2058114/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" target="_blank">Distance</a></h2>
+        <h2 id="field-3">measuring..</h2>
+      </article>
+    </main>
+    <aside>
+      <article id="conclu">
+        <h2>Conclusion</h2>
+        <sub id="s1">.</sub>
+        <sub id="s2">.</sub>
+        <sub id="s3">.</sub>
+      </article>
+    </aside>
+    <footer>
+      <p><a href="https://wokwi.com/projects/358711472926033921" target="_blank">My Rotation &#38; Distance Sensor</a> &#169; 2023, Hari Iskandar</p>
+    </footer>
+  </body>
+</html>
